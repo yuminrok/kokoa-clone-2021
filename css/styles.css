@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "status-bar.css";
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-welcome {
+  margin: 6rem 0 2rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-welcome__title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.header-welcome__text {
+  width: 70%;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.2rem;
+}
+
+#login-form input {
+  padding: 1rem 0;
+  border: none;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease-in-out;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.8rem;
+}
