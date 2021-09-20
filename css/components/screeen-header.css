@@ -27,8 +27,8 @@
 .screen-header__notification__cog {
   display: flex;
   position: absolute;
-  left: 4rem;
-  bottom: 1rem;
+  right: -0.3rem;
+  bottom: 1.1rem;
   background-color: tomato;
   width: 0.4rem;
   height: 0.4rem;

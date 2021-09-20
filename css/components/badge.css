@@ -9,3 +9,16 @@
   width: 1.7rem;
   height: 1.7rem;
 }
+
+.badge__small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 0.5rem;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
